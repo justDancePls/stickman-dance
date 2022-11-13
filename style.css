@@ -1,0 +1,12 @@
+.canvas,h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 25vh;
+    text-align: center;
+}
+.audio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
