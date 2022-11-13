@@ -9,10 +9,11 @@ let dance = false;
 function clickEvent () {
   dance = true;
   let audio = document.getElementById("audio");
-  let drawing = document.getElementById("drawing");
+  let title = document.getElementById("title");
   if (dance) {
     draw();
     audio.play();
+    title.innerHTML = 'Dance!!'
   } else {
     drawStandingMan();
     audio.pause();
